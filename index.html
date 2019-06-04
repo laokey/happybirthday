@@ -2,104 +2,19 @@
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <title>1997 - YUERONG_WANG</title>
+    <title>HappyBirthday</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
     <!--<meta itemprop="image" content="./images/fenxiang.png" />-->
-    <style>
-        html {
-            height: 100%;
-        }
-
-        body {
-            font-family: "Helvetica Neue", "Luxi Sans", "DejaVu Sans", Tahoma, "Hiragino Sans GB", "Microsoft Yahei", sans-serif;
-            background: #79a8ae;
-            color: #CFEBE4;
-            font-size: 18px;
-            line-height: 2;
-            letter-spacing: 1.2px;
-            margin: 0;
-        }
-
-        a {
-            color: #ebf7f4;
-        }
-
-        .body--ready {
-            background: -webkit-linear-gradient(top, rgb(203, 235, 219) 0%, rgb(55, 148, 192) 120%);
-            background: -moz-linear-gradient(top, rgb(203, 235, 219) 0%, rgb(55, 148, 192) 120%);
-            background: -o-linear-gradient(top, rgb(203, 235, 219) 0%, rgb(55, 148, 192) 120%);
-            background: -ms-linear-gradient(top, rgb(203, 235, 219) 0%, rgb(55, 148, 192) 120%);
-            background: linear-gradient(top, rgb(203, 235, 219) 0%, rgb(55, 148, 192) 120%);
-        }
-
-        .text {
-            position: fixed;
-            bottom: 100px;
-            text-align: center;
-            width: 100%;
-        }
-
-        .canvas {
-            margin: 0 auto;
-            display: block;
-        }
-
-        img#logo {
-            width: 128px;
-            background-size: cover;
-            border-radius: 200px;
-            box-shadow: 0px 0px 40px rgba(63, 81, 181, 0.72);
-            border: 3px solid #00a0ff;
-            opacity: 1;
-            margin: 0 auto;
-            margin-top: 20px;
-            margin-bottom: 20px;
-            transition: all 1.0s;
-        }
-
-        #logo:hover {
-            box-shadow: 0 0 10px #fff;
-            -webkit-box-shadow: 0 0 19px #fff;
-            transform: rotate(360deg);
-            -ms-transform: rotate(360deg); /* IE 9 */
-            -moz-transform: rotate(360deg); /* Firefox */
-            -webkit-transform: rotate(360deg); /* Safari 和 Chrome */
-            -o-transform: rotate(360deg); /* Opera */
-            filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
-        }
-
-        .cs {
-            width: 100%;
-            height: 100%;
-            margin: 0 auto;
-            position: absolute;
-            text-align: center;
-        }
-
-        .text {
-            position: fixed;
-            bottom: 80px;
-            text-align: center;
-            width: 100%;
-            font-weight: bold;
-        }
-
-        .text-right {
-            position: fixed;
-            bottom: 50px;
-            text-align: right;
-            width: 100%;
-            font-weight: bold;
-        }
-    </style>
+    <link href="./stylesheets/style.css" type="text/css" rel="stylesheet">
+    <script type="text/javascript" src="./javascripts/function.js"></script>
 
 </head>
 
 <body>
 <!--更改为你女朋友的头像-->
 <div class="cs">
-    <img src="http://od2xrf8gr.bkt.clouddn.com/girl.jpg" id="logo">
+    <img src="./images/3.jpg" id="logo">
 </div>
 <canvas class="canvas" width="1820" height="905"></canvas>
 <p class="text" style="color: #ed3073;">
@@ -110,7 +25,7 @@
 <script language="javascript">
     function show_date_time() {
         window.setTimeout("show_date_time()", 1000);
-        BirthDay = new Date("5/25/2014");//这个日期是可以修改的
+        BirthDay = new Date("5/20/2017");//这个日期是可以修改的
         today = new Date();
         timeold = (today.getTime() - BirthDay.getTime());
         sectimeold = timeold / 1000
@@ -134,7 +49,7 @@
             S.Drawing.init('.canvas');
             document.body.classList.add('body--ready');
 			//想说的话
-            S.UI.simulate("旧毛|I'm|老夏|21|岁|生|日|快|乐|#countdown 3|#time");
+            S.UI.simulate("3|2|1|梅宝|I'm|涛涛|28|岁|生|日|快|乐|我|永|远|爱|你|#time");
             S.Drawing.loop(function () {
                 S.Shape.render();
             });
@@ -667,7 +582,7 @@
     }());
     S.init();
 </script>
-<audio  autoplay="autoplay" src="http://other.web.ri01.sycdn.kuwo.cn/resource/n2/5/28/1090321156.mp3" loop="loop" controls="controls">
+<audio  autoplay="autoplay" src="http://www.170mv.com/kw/se-sycdn.kuwo.cn/resource/n1/22/20/2902191870.mp3" loop="loop" controls="controls">
 当前浏览器不支持音乐播放
 </audio>
 </body>
